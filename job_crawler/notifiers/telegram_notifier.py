@@ -11,5 +11,6 @@ class TelegramNotifier:
         # print("All updates:")
         # for update in updates:
         #     print(update)
+        # TODO: figure out how to get chats where to send notifications
 
         self.__bot.send_message(text=f"Found a job: {job}", chat_id=474170033)
